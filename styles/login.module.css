@@ -1,0 +1,59 @@
+.login {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 844px;
+    padding: 201px 0;
+    width: 390px;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 1px;
+    margin-top: 44px;
+    object-fit: cover;
+    width: 183px;
+}
+
+.frame { 
+    align-items: center; 
+    background-color: white; 
+    border-radius: 4px; 
+    display: flex; 
+    gap: 10px; 
+    height: 48px; 
+    justify-content: center; 
+    margin-top: 19px; 
+    padding: 5px 61px; 
+    width: 226px; 
+    font-weight: bold;
+} 
+
+.frame2 { 
+    align-items: center; 
+    background-color: white; 
+    border-radius: 4px; 
+    display: flex; 
+    gap: 10px; 
+    height: 48px; 
+    justify-content: center; 
+    margin-top: 140px; 
+    padding: 5px 61px; 
+    width: 226px; 
+    font-weight: bold;
+} 
+
+.google { 
+    letter-spacing: 8; 
+    text-align: center; 
+} 
+
+.kakao { 
+    letter-spacing: 0; 
+    text-align: center; 
+}
+
+.naver { 
+    letter-spacing: 0; 
+    text-align: center; 
+}
