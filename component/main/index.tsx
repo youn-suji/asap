@@ -5,7 +5,7 @@ const Main = () => {
 
     return (
         <>
-            {/* <div>{session.user.name}</div>  */}
+            <div>{session && session.user && session.user.name}</div> 
             <button onClick={() => signOut()}>Log out</button>
         </>
     )

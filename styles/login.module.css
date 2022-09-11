@@ -9,8 +9,7 @@
 
 .logo {
     height: 100px;
-    margin-right: 1px;
-    margin-top: 44px;
+    margin-bottom: 140px;
     object-fit: cover;
     width: 183px;
 }
@@ -29,31 +28,11 @@
     font-weight: bold;
 } 
 
-.frame2 { 
-    align-items: center; 
-    background-color: white; 
-    border-radius: 4px; 
-    display: flex; 
-    gap: 10px; 
-    height: 48px; 
-    justify-content: center; 
-    margin-top: 140px; 
-    padding: 5px 61px; 
-    width: 226px; 
-    font-weight: bold;
-} 
-
-.google { 
+.text { 
     letter-spacing: 8; 
-    text-align: center; 
-} 
-
-.kakao { 
-    letter-spacing: 0; 
     text-align: center; 
 }
 
-.naver { 
-    letter-spacing: 0; 
-    text-align: center; 
+.privacy {
+    color: #e0e0e0;
 }
