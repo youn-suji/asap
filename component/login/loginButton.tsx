@@ -12,7 +12,10 @@ export default function LoginButton ({ provider, name } : ILoginButtonProps) {
     return (
         <div 
             className={style.frame}
-            onClick={oauth2}
+            onClick={(e) => {
+                e.preventDefault()
+                signIn(provider)
+            }}
         >
             <div className={style.text}>
                 {name} 로그인

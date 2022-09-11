@@ -5,8 +5,8 @@ export default function userInfoData(_req: NextApiRequest, res: NextApiResponse<
   const data: IUserInfo = {
       name: '윤수지',
       email: 'yyounsj@gmail.com',
-      privacy: true,
-      nickName: '수지'
+      privacy: false,
+      nickName: ''
   }
 
   return res.status(200).json(data);
